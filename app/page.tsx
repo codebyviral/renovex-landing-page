@@ -1,5 +1,5 @@
-import Image from "next/image"
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 import {
   ChevronRight,
   Mail,
@@ -15,7 +15,7 @@ import {
   Building,
   TrendingUp,
   BarChart3,
-} from "lucide-react"
+} from "lucide-react";
 
 export default function Home() {
   return (
@@ -32,19 +32,34 @@ export default function Home() {
             />
           </div>
           <nav className="hidden md:flex space-x-8">
-            <Link href="#about" className="text-gray-700 hover:text-orange-500 font-medium transition-colors">
+            <Link
+              href="#about"
+              className="text-gray-700 hover:text-orange-500 font-medium transition-colors"
+            >
               About Us
             </Link>
-            <Link href="#products" className="text-gray-700 hover:text-orange-500 font-medium transition-colors">
+            <Link
+              href="#products"
+              className="text-gray-700 hover:text-orange-500 font-medium transition-colors"
+            >
               Products
             </Link>
-            <Link href="#solutions" className="text-gray-700 hover:text-orange-500 font-medium transition-colors">
+            <Link
+              href="#solutions"
+              className="text-gray-700 hover:text-orange-500 font-medium transition-colors"
+            >
               Solutions
             </Link>
-            <Link href="#market" className="text-gray-700 hover:text-orange-500 font-medium transition-colors">
+            <Link
+              href="#market"
+              className="text-gray-700 hover:text-orange-500 font-medium transition-colors"
+            >
               Market
             </Link>
-            <Link href="#contact" className="text-gray-700 hover:text-orange-500 font-medium transition-colors">
+            <Link
+              href="#contact"
+              className="text-gray-700 hover:text-orange-500 font-medium transition-colors"
+            >
               Contact
             </Link>
           </nav>
@@ -63,7 +78,12 @@ export default function Home() {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
             </svg>
           </button>
         </div>
@@ -77,11 +97,15 @@ export default function Home() {
             <div className="max-w-3xl">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
                 Transforming Waste Tires into
-                <span className="text-orange-500"> Premium Rubber Products</span>
+                <span className="text-orange-500">
+                  {" "}
+                  Premium Rubber Products
+                </span>
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-gray-200">
-                Renovex Industries LLP specializes in recycling waste tires into high-quality crumb rubber powder in 10,
-                20, 30, and 40 MESH sizes.
+                Renovex Industries LLP specializes in recycling waste tires into
+                high-quality crumb rubber powder in 10, 20, 30, and 40 MESH
+                sizes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
@@ -114,43 +138,62 @@ export default function Home() {
                   Pioneering Sustainable Rubber Recycling Solutions
                 </h2>
                 <p className="text-gray-600 mb-6 text-lg">
-                  RENOVEX INDUSTRIES LLP specializes in the recycling of waste tires from trucks and buses, converting
-                  them into high-quality crumb rubber powder. Our core activities include the procurement of used tires,
-                  processing them using advanced technologies, and producing premium rubber powder for various
+                  RENOVEX INDUSTRIES LLP specializes in the recycling of waste
+                  tires from trucks and buses, converting them into high-quality
+                  crumb rubber powder. Our core activities include the
+                  procurement of used tires, processing them using advanced
+                  technologies, and producing premium rubber powder for various
                   industrial applications.
                 </p>
                 <p className="text-gray-600 mb-8 text-lg">
-                  Our operations focus on maximizing production efficiency, maintaining superior quality, and meeting
-                  the growing demand for sustainable rubber products in the market.
+                  Our operations focus on maximizing production efficiency,
+                  maintaining superior quality, and meeting the growing demand
+                  for sustainable rubber products in the market.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                   <div className="flex items-start">
                     <CheckCircle className="h-6 w-6 text-orange-500 mr-3 flex-shrink-0 mt-1" />
                     <div>
-                      <h4 className="font-semibold text-gray-800">Advanced Technology</h4>
-                      <p className="text-gray-600">Cutting-edge recycling processes</p>
+                      <h4 className="font-semibold text-gray-800">
+                        Advanced Technology
+                      </h4>
+                      <p className="text-gray-600">
+                        Cutting-edge recycling processes
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <CheckCircle className="h-6 w-6 text-orange-500 mr-3 flex-shrink-0 mt-1" />
                     <div>
-                      <h4 className="font-semibold text-gray-800">Premium Quality</h4>
-                      <p className="text-gray-600">Consistent, high-grade output</p>
+                      <h4 className="font-semibold text-gray-800">
+                        Premium Quality
+                      </h4>
+                      <p className="text-gray-600">
+                        Consistent, high-grade output
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <CheckCircle className="h-6 w-6 text-orange-500 mr-3 flex-shrink-0 mt-1" />
                     <div>
-                      <h4 className="font-semibold text-gray-800">Eco-Friendly</h4>
-                      <p className="text-gray-600">Reducing environmental impact</p>
+                      <h4 className="font-semibold text-gray-800">
+                        Eco-Friendly
+                      </h4>
+                      <p className="text-gray-600">
+                        Reducing environmental impact
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <CheckCircle className="h-6 w-6 text-orange-500 mr-3 flex-shrink-0 mt-1" />
                     <div>
-                      <h4 className="font-semibold text-gray-800">Cost-Effective</h4>
-                      <p className="text-gray-600">Affordable alternative to virgin rubber</p>
+                      <h4 className="font-semibold text-gray-800">
+                        Cost-Effective
+                      </h4>
+                      <p className="text-gray-600">
+                        Affordable alternative to virgin rubber
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -195,28 +238,38 @@ export default function Home() {
               <div className="inline-block bg-orange-100 text-orange-500 px-4 py-1 rounded-full text-sm font-medium mb-4">
                 Vision & Mission
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Our Vision & Mission</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">
+                Our Vision & Mission
+              </h2>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-orange-500">
                 <Target className="h-12 w-12 text-orange-500 mb-4" />
-                <h3 className="text-2xl font-bold mb-4 text-gray-800">Our Vision</h3>
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">
+                  Our Vision
+                </h3>
                 <p className="text-gray-600 text-lg">
-                  To be a leading innovator in the rubber recycling industry, transforming waste into high-quality,
-                  sustainable products. RENOVEX INDUSTRIES LLP envisions a future where our reclaimed rubber products
-                  set new standards for environmental responsibility, contributing to a cleaner planet and a more
+                  To be a leading innovator in the rubber recycling industry,
+                  transforming waste into high-quality, sustainable products.
+                  RENOVEX INDUSTRIES LLP envisions a future where our reclaimed
+                  rubber products set new standards for environmental
+                  responsibility, contributing to a cleaner planet and a more
                   efficient, circular economy.
                 </p>
               </div>
 
               <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-orange-500">
                 <Recycle className="h-12 w-12 text-orange-500 mb-4" />
-                <h3 className="text-2xl font-bold mb-4 text-gray-800">Our Mission</h3>
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">
+                  Our Mission
+                </h3>
                 <p className="text-gray-600 text-lg">
-                  Our mission is to leverage advanced recycling technologies to process waste tires into premium rubber
-                  products that meet the highest industry standards. We are committed to continuous improvement,
-                  ensuring the quality of our products while driving growth through sustainable practices, innovative
+                  Our mission is to leverage advanced recycling technologies to
+                  process waste tires into premium rubber products that meet the
+                  highest industry standards. We are committed to continuous
+                  improvement, ensuring the quality of our products while
+                  driving growth through sustainable practices, innovative
                   solutions, and strong customer relationships.
                 </p>
               </div>
@@ -231,9 +284,12 @@ export default function Home() {
               <div className="inline-block bg-orange-100 text-orange-500 px-4 py-1 rounded-full text-sm font-medium mb-4">
                 Problems & Solutions
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Industry Challenges We Solve</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">
+                Industry Challenges We Solve
+              </h2>
               <p className="text-gray-600 text-lg">
-                We address critical issues in the rubber industry with innovative, sustainable solutions.
+                We address critical issues in the rubber industry with
+                innovative, sustainable solutions.
               </p>
             </div>
 
@@ -248,34 +304,44 @@ export default function Home() {
 
                 <div className="space-y-6">
                   <div className="bg-red-50 rounded-lg p-6">
-                    <h4 className="font-bold text-gray-800 mb-2">High Waste Accumulation</h4>
+                    <h4 className="font-bold text-gray-800 mb-2">
+                      High Waste Accumulation
+                    </h4>
                     <p className="text-gray-600">
-                      Excessive accumulation of used tires, leading to environmental pollution and waste management
-                      challenges.
+                      Excessive accumulation of used tires, leading to
+                      environmental pollution and waste management challenges.
                     </p>
                   </div>
 
                   <div className="bg-red-50 rounded-lg p-6">
-                    <h4 className="font-bold text-gray-800 mb-2">Limited Recycling Options</h4>
+                    <h4 className="font-bold text-gray-800 mb-2">
+                      Limited Recycling Options
+                    </h4>
                     <p className="text-gray-600">
-                      Insufficient recycling facilities for rubber waste, resulting in a high demand for effective tire
-                      recycling solutions.
+                      Insufficient recycling facilities for rubber waste,
+                      resulting in a high demand for effective tire recycling
+                      solutions.
                     </p>
                   </div>
 
                   <div className="bg-red-50 rounded-lg p-6">
-                    <h4 className="font-bold text-gray-800 mb-2">Costly Raw Materials</h4>
+                    <h4 className="font-bold text-gray-800 mb-2">
+                      Costly Raw Materials
+                    </h4>
                     <p className="text-gray-600">
-                      Rising costs of raw materials in the rubber industry, creating a need for cost-effective, recycled
-                      alternatives.
+                      Rising costs of raw materials in the rubber industry,
+                      creating a need for cost-effective, recycled alternatives.
                     </p>
                   </div>
 
                   <div className="bg-red-50 rounded-lg p-6">
-                    <h4 className="font-bold text-gray-800 mb-2">Supply Chain Gaps</h4>
+                    <h4 className="font-bold text-gray-800 mb-2">
+                      Supply Chain Gaps
+                    </h4>
                     <p className="text-gray-600">
-                      Inconsistent supply of high-quality reclaimed rubber products, affecting the production processes
-                      of industries reliant on rubber.
+                      Inconsistent supply of high-quality reclaimed rubber
+                      products, affecting the production processes of industries
+                      reliant on rubber.
                     </p>
                   </div>
                 </div>
@@ -291,34 +357,46 @@ export default function Home() {
 
                 <div className="space-y-6">
                   <div className="bg-green-50 rounded-lg p-6">
-                    <h4 className="font-bold text-gray-800 mb-2">Efficient Recycling Process</h4>
+                    <h4 className="font-bold text-gray-800 mb-2">
+                      Efficient Recycling Process
+                    </h4>
                     <p className="text-gray-600">
-                      We convert waste tires into high-quality crumb rubber powder, reducing environmental impact and
-                      waste accumulation.
+                      We convert waste tires into high-quality crumb rubber
+                      powder, reducing environmental impact and waste
+                      accumulation.
                     </p>
                   </div>
 
                   <div className="bg-green-50 rounded-lg p-6">
-                    <h4 className="font-bold text-gray-800 mb-2">Cost-Effective Products</h4>
+                    <h4 className="font-bold text-gray-800 mb-2">
+                      Cost-Effective Products
+                    </h4>
                     <p className="text-gray-600">
-                      Our recycled rubber products offer a more affordable alternative to virgin rubber, helping
-                      industries reduce material costs.
+                      Our recycled rubber products offer a more affordable
+                      alternative to virgin rubber, helping industries reduce
+                      material costs.
                     </p>
                   </div>
 
                   <div className="bg-green-50 rounded-lg p-6">
-                    <h4 className="font-bold text-gray-800 mb-2">High-Quality Output</h4>
+                    <h4 className="font-bold text-gray-800 mb-2">
+                      High-Quality Output
+                    </h4>
                     <p className="text-gray-600">
-                      We ensure the production of premium rubber powder that meets industry standards, filling the gap
-                      in the supply of consistent, reliable reclaimed rubber.
+                      We ensure the production of premium rubber powder that
+                      meets industry standards, filling the gap in the supply of
+                      consistent, reliable reclaimed rubber.
                     </p>
                   </div>
 
                   <div className="bg-green-50 rounded-lg p-6">
-                    <h4 className="font-bold text-gray-800 mb-2">Sustainable Practices</h4>
+                    <h4 className="font-bold text-gray-800 mb-2">
+                      Sustainable Practices
+                    </h4>
                     <p className="text-gray-600">
-                      Our operations contribute to a circular economy by repurposing waste materials, aligning with
-                      environmental regulations and sustainability goals.
+                      Our operations contribute to a circular economy by
+                      repurposing waste materials, aligning with environmental
+                      regulations and sustainability goals.
                     </p>
                   </div>
                 </div>
@@ -334,9 +412,12 @@ export default function Home() {
               <div className="inline-block bg-orange-500 text-white px-4 py-1 rounded-full text-sm font-medium mb-4">
                 What Sets Us Apart
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Unique Selling Propositions</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                Our Unique Selling Propositions
+              </h2>
               <p className="text-gray-300 text-lg">
-                Discover what makes Renovex Industries the leader in tire recycling and rubber powder production.
+                Discover what makes Renovex Industries the leader in tire
+                recycling and rubber powder production.
               </p>
             </div>
 
@@ -345,35 +426,43 @@ export default function Home() {
                 <Zap className="h-12 w-12 text-orange-500 mb-4" />
                 <h3 className="text-xl font-bold mb-3">Innovative Recycling</h3>
                 <p className="text-gray-300">
-                  We utilize advanced technologies to transform waste tires into high-quality crumb rubber powder,
-                  setting us apart from traditional recycling methods.
+                  We utilize advanced technologies to transform waste tires into
+                  high-quality crumb rubber powder, setting us apart from
+                  traditional recycling methods.
                 </p>
               </div>
 
               <div className="bg-gray-800 rounded-xl p-8 border-b-4 border-orange-500 hover:transform hover:-translate-y-2 transition-transform duration-300">
                 <Award className="h-12 w-12 text-orange-500 mb-4" />
-                <h3 className="text-xl font-bold mb-3">Focus on Reclaim Rubber</h3>
+                <h3 className="text-xl font-bold mb-3">
+                  Focus on Reclaim Rubber
+                </h3>
                 <p className="text-gray-300">
-                  Our unique process focuses on producing reclaim rubber, providing a more durable and versatile product
-                  than standard recycled rubber.
+                  Our unique process focuses on producing reclaim rubber,
+                  providing a more durable and versatile product than standard
+                  recycled rubber.
                 </p>
               </div>
 
               <div className="bg-gray-800 rounded-xl p-8 border-b-4 border-orange-500 hover:transform hover:-translate-y-2 transition-transform duration-300">
                 <CheckCircle className="h-12 w-12 text-orange-500 mb-4" />
-                <h3 className="text-xl font-bold mb-3">Superior Quality Assurance</h3>
+                <h3 className="text-xl font-bold mb-3">
+                  Superior Quality Assurance
+                </h3>
                 <p className="text-gray-300">
-                  We prioritize stringent quality control measures, ensuring our products consistently meet and exceed
-                  industry standards.
+                  We prioritize stringent quality control measures, ensuring our
+                  products consistently meet and exceed industry standards.
                 </p>
               </div>
 
               <div className="bg-gray-800 rounded-xl p-8 border-b-4 border-orange-500 hover:transform hover:-translate-y-2 transition-transform duration-300">
                 <Recycle className="h-12 w-12 text-orange-500 mb-4" />
-                <h3 className="text-xl font-bold mb-3">Environmentally Responsible</h3>
+                <h3 className="text-xl font-bold mb-3">
+                  Environmentally Responsible
+                </h3>
                 <p className="text-gray-300">
-                  Our commitment to sustainability drives our operations, making our products an eco-friendly choice in
-                  the market.
+                  Our commitment to sustainability drives our operations, making
+                  our products an eco-friendly choice in the market.
                 </p>
               </div>
             </div>
@@ -391,8 +480,8 @@ export default function Home() {
                 High-Quality Recycled Rubber Products
               </h2>
               <p className="text-gray-600 text-lg">
-                We offer premium rubber powder in various mesh sizes (10, 20, 30, 40 MESH) to meet diverse industry
-                needs.
+                We offer premium rubber powder in various mesh sizes (10, 20,
+                30, 40 MESH) to meet diverse industry needs.
               </p>
             </div>
 
@@ -408,16 +497,26 @@ export default function Home() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-3 text-gray-800">Crumb Rubber Powder</h3>
+                  <h3 className="text-xl font-bold mb-3 text-gray-800">
+                    Crumb Rubber Powder
+                  </h3>
                   <p className="text-gray-600 mb-4">
-                    High-quality, recycled rubber powder made from processed waste tires, suitable for various
-                    industrial applications.
+                    High-quality, recycled rubber powder made from processed
+                    waste tires, suitable for various industrial applications.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
-                    <span className="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm">10 MESH</span>
-                    <span className="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm">20 MESH</span>
-                    <span className="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm">30 MESH</span>
-                    <span className="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm">40 MESH</span>
+                    <span className="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm">
+                      10 MESH
+                    </span>
+                    <span className="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm">
+                      20 MESH
+                    </span>
+                    <span className="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm">
+                      30 MESH
+                    </span>
+                    <span className="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm">
+                      40 MESH
+                    </span>
                   </div>
                   <Link
                     href="#contact"
@@ -440,16 +539,21 @@ export default function Home() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-3 text-gray-800">Reclaimed Rubber</h3>
+                  <h3 className="text-xl font-bold mb-3 text-gray-800">
+                    Reclaimed Rubber
+                  </h3>
                   <p className="text-gray-600 mb-4">
-                    A versatile product created from crumb rubber, used in manufacturing durable rubber goods, including
-                    tires and automotive parts.
+                    A versatile product created from crumb rubber, used in
+                    manufacturing durable rubber goods, including tires and
+                    automotive parts.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm">
                       High Durability
                     </span>
-                    <span className="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm">Cost-Effective</span>
+                    <span className="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm">
+                      Cost-Effective
+                    </span>
                   </div>
                   <Link
                     href="#contact"
@@ -481,9 +585,12 @@ export default function Home() {
               <div className="inline-block bg-orange-100 text-orange-500 px-4 py-1 rounded-full text-sm font-medium mb-4">
                 Market Opportunity
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Market Size & Opportunity</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">
+                Market Size & Opportunity
+              </h2>
               <p className="text-gray-600 text-lg">
-                India's rubber and tire recycling industry presents a significant growth opportunity.
+                India's rubber and tire recycling industry presents a
+                significant growth opportunity.
               </p>
             </div>
 
@@ -492,10 +599,15 @@ export default function Home() {
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-orange-100 text-orange-500 mb-4">
                   <BarChart3 className="h-8 w-8" />
                 </div>
-                <h3 className="text-2xl font-bold mb-2 text-gray-800">₹35 Billion</h3>
-                <p className="text-gray-500 font-medium uppercase text-sm tracking-wider">Total Addressable Market</p>
+                <h3 className="text-2xl font-bold mb-2 text-gray-800">
+                  ₹35 Billion
+                </h3>
+                <p className="text-gray-500 font-medium uppercase text-sm tracking-wider">
+                  Total Addressable Market
+                </p>
                 <p className="text-gray-600 mt-4">
-                  The current estimated size of India's rubber and tire recycling industry.
+                  The current estimated size of India's rubber and tire
+                  recycling industry.
                 </p>
               </div>
 
@@ -503,12 +615,15 @@ export default function Home() {
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-orange-100 text-orange-500 mb-4">
                   <Target className="h-8 w-8" />
                 </div>
-                <h3 className="text-2xl font-bold mb-2 text-gray-800">₹4.2 Billion</h3>
+                <h3 className="text-2xl font-bold mb-2 text-gray-800">
+                  ₹4.2 Billion
+                </h3>
                 <p className="text-gray-500 font-medium uppercase text-sm tracking-wider">
                   Serviceable Available Market
                 </p>
                 <p className="text-gray-600 mt-4">
-                  The portion of the market that our services can realistically target.
+                  The portion of the market that our services can realistically
+                  target.
                 </p>
               </div>
 
@@ -516,12 +631,15 @@ export default function Home() {
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-orange-100 text-orange-500 mb-4">
                   <TrendingUp className="h-8 w-8" />
                 </div>
-                <h3 className="text-2xl font-bold mb-2 text-gray-800">₹50.4 Million</h3>
+                <h3 className="text-2xl font-bold mb-2 text-gray-800">
+                  ₹50.4 Million
+                </h3>
                 <p className="text-gray-500 font-medium uppercase text-sm tracking-wider">
                   Serviceable Obtainable Market
                 </p>
                 <p className="text-gray-600 mt-4">
-                  Our projected market share based on our capacity and growth strategy.
+                  Our projected market share based on our capacity and growth
+                  strategy.
                 </p>
               </div>
             </div>
@@ -529,11 +647,14 @@ export default function Home() {
             <div className="mt-12 bg-white rounded-xl shadow-lg p-8">
               <div className="flex flex-col md:flex-row items-center gap-8">
                 <div className="md:w-1/2">
-                  <h3 className="text-2xl font-bold mb-4 text-gray-800">Growth Potential</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-gray-800">
+                    Growth Potential
+                  </h3>
                   <p className="text-gray-600 mb-6">
-                    The industry is expected to grow substantially, potentially reaching up to ₹350 billion in the
-                    coming years, reflecting the robust growth prospects and escalating market demand for sustainable
-                    recycling solutions.
+                    The industry is expected to grow substantially, potentially
+                    reaching up to ₹350 billion in the coming years, reflecting
+                    the robust growth prospects and escalating market demand for
+                    sustainable recycling solutions.
                   </p>
                   <div className="flex items-center gap-4">
                     <div className="flex-1 bg-gray-200 h-2 rounded-full overflow-hidden">
@@ -550,23 +671,33 @@ export default function Home() {
                 </div>
                 <div className="md:w-1/2">
                   <div className="bg-gray-50 p-6 rounded-lg">
-                    <h4 className="font-bold text-gray-800 mb-4">Key Growth Drivers</h4>
+                    <h4 className="font-bold text-gray-800 mb-4">
+                      Key Growth Drivers
+                    </h4>
                     <ul className="space-y-3">
                       <li className="flex items-start">
                         <CheckCircle className="h-5 w-5 text-orange-500 mr-3 flex-shrink-0 mt-0.5" />
-                        <span className="text-gray-600">Increasing automotive sector demand</span>
+                        <span className="text-gray-600">
+                          Increasing automotive sector demand
+                        </span>
                       </li>
                       <li className="flex items-start">
                         <CheckCircle className="h-5 w-5 text-orange-500 mr-3 flex-shrink-0 mt-0.5" />
-                        <span className="text-gray-600">Rising environmental awareness</span>
+                        <span className="text-gray-600">
+                          Rising environmental awareness
+                        </span>
                       </li>
                       <li className="flex items-start">
                         <CheckCircle className="h-5 w-5 text-orange-500 mr-3 flex-shrink-0 mt-0.5" />
-                        <span className="text-gray-600">Government regulations promoting recycling</span>
+                        <span className="text-gray-600">
+                          Government regulations promoting recycling
+                        </span>
                       </li>
                       <li className="flex items-start">
                         <CheckCircle className="h-5 w-5 text-orange-500 mr-3 flex-shrink-0 mt-0.5" />
-                        <span className="text-gray-600">Cost advantages of recycled materials</span>
+                        <span className="text-gray-600">
+                          Cost advantages of recycled materials
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -583,51 +714,67 @@ export default function Home() {
               <div className="inline-block bg-orange-100 text-orange-500 px-4 py-1 rounded-full text-sm font-medium mb-4">
                 Our Customers
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Target Customers</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">
+                Target Customers
+              </h2>
               <p className="text-gray-600 text-lg">
-                We serve a diverse range of industries that benefit from our high-quality recycled rubber products.
+                We serve a diverse range of industries that benefit from our
+                high-quality recycled rubber products.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-orange-500 hover:shadow-xl transition-shadow duration-300">
                 <Building className="h-12 w-12 text-orange-500 mb-4" />
-                <h3 className="text-xl font-bold mb-3 text-gray-800">Rubber Product Manufacturers</h3>
+                <h3 className="text-xl font-bold mb-3 text-gray-800">
+                  Rubber Product Manufacturers
+                </h3>
                 <p className="text-gray-600">
-                  Companies that produce rubber-based products and require high-quality crumb rubber as a raw material.
+                  Companies that produce rubber-based products and require
+                  high-quality crumb rubber as a raw material.
                 </p>
               </div>
 
               <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-orange-500 hover:shadow-xl transition-shadow duration-300">
                 <Users className="h-12 w-12 text-orange-500 mb-4" />
-                <h3 className="text-xl font-bold mb-3 text-gray-800">Automotive Industry</h3>
+                <h3 className="text-xl font-bold mb-3 text-gray-800">
+                  Automotive Industry
+                </h3>
                 <p className="text-gray-600">
-                  Businesses involved in the production of tires, belts, and other automotive parts seeking sustainable
-                  and cost-effective rubber alternatives.
+                  Businesses involved in the production of tires, belts, and
+                  other automotive parts seeking sustainable and cost-effective
+                  rubber alternatives.
                 </p>
               </div>
 
               <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-orange-500 hover:shadow-xl transition-shadow duration-300">
                 <Building className="h-12 w-12 text-orange-500 mb-4" />
-                <h3 className="text-xl font-bold mb-3 text-gray-800">Construction Sector</h3>
+                <h3 className="text-xl font-bold mb-3 text-gray-800">
+                  Construction Sector
+                </h3>
                 <p className="text-gray-600">
-                  Industries using rubber products for building materials, flooring, and insulation, looking for durable
-                  and eco-friendly options.
+                  Industries using rubber products for building materials,
+                  flooring, and insulation, looking for durable and eco-friendly
+                  options.
                 </p>
               </div>
 
               <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-orange-500 hover:shadow-xl transition-shadow duration-300">
                 <Recycle className="h-12 w-12 text-orange-500 mb-4" />
-                <h3 className="text-xl font-bold mb-3 text-gray-800">Recycling Companies</h3>
+                <h3 className="text-xl font-bold mb-3 text-gray-800">
+                  Recycling Companies
+                </h3>
                 <p className="text-gray-600">
-                  Organizations focused on waste management and recycling that need reliable sources of reclaimed
-                  rubber.
+                  Organizations focused on waste management and recycling that
+                  need reliable sources of reclaimed rubber.
                 </p>
               </div>
             </div>
 
             <div className="mt-16">
-              <h3 className="text-2xl font-bold mb-8 text-gray-800 text-center">Our Market Strategy</h3>
+              <h3 className="text-2xl font-bold mb-8 text-gray-800 text-center">
+                Our Market Strategy
+              </h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-gray-50 rounded-xl p-8">
                   <h4 className="font-bold text-gray-800 mb-4 flex items-center">
@@ -637,7 +784,8 @@ export default function Home() {
                     Targeted Marketing
                   </h4>
                   <p className="text-gray-600">
-                    Focus on reaching industrial clients who require high-quality reclaimed rubber for their production
+                    Focus on reaching industrial clients who require
+                    high-quality reclaimed rubber for their production
                     processes.
                   </p>
                 </div>
@@ -650,8 +798,9 @@ export default function Home() {
                     Online Presence
                   </h4>
                   <p className="text-gray-600">
-                    Leverage platforms like IndiaMart and other online marketplaces to expand our customer base and
-                    increase visibility.
+                    Leverage platforms like IndiaMart and other online
+                    marketplaces to expand our customer base and increase
+                    visibility.
                   </p>
                 </div>
 
@@ -663,8 +812,8 @@ export default function Home() {
                     Direct Sales Approach
                   </h4>
                   <p className="text-gray-600">
-                    Employ a dedicated sales team to engage directly with potential customers and distributors across
-                    India.
+                    Employ a dedicated sales team to engage directly with
+                    potential customers and distributors across India.
                   </p>
                 </div>
 
@@ -676,8 +825,9 @@ export default function Home() {
                     Strategic Partnerships
                   </h4>
                   <p className="text-gray-600">
-                    Form alliances with key players in the rubber and recycling industries to strengthen our market
-                    position and expand distribution channels.
+                    Form alliances with key players in the rubber and recycling
+                    industries to strengthen our market position and expand
+                    distribution channels.
                   </p>
                 </div>
               </div>
@@ -693,9 +843,12 @@ export default function Home() {
                 <div className="inline-block bg-orange-100 text-orange-500 px-4 py-1 rounded-full text-sm font-medium mb-4">
                   Growth Plan
                 </div>
-                <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Our Scale-Up Strategy</h2>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">
+                  Our Scale-Up Strategy
+                </h2>
                 <p className="text-gray-600 mb-8 text-lg">
-                  We have a comprehensive plan to expand our operations and increase our market presence.
+                  We have a comprehensive plan to expand our operations and
+                  increase our market presence.
                 </p>
 
                 <div className="space-y-6">
@@ -704,9 +857,12 @@ export default function Home() {
                       <span className="font-bold">1</span>
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-800 mb-2">Increase Production Capacity</h4>
+                      <h4 className="font-bold text-gray-800 mb-2">
+                        Increase Production Capacity
+                      </h4>
                       <p className="text-gray-600">
-                        Expand manufacturing facilities to enhance production capacity and meet growing market demand.
+                        Expand manufacturing facilities to enhance production
+                        capacity and meet growing market demand.
                       </p>
                     </div>
                   </div>
@@ -716,9 +872,12 @@ export default function Home() {
                       <span className="font-bold">2</span>
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-800 mb-2">Invest in Technology</h4>
+                      <h4 className="font-bold text-gray-800 mb-2">
+                        Invest in Technology
+                      </h4>
                       <p className="text-gray-600">
-                        Implement advanced recycling technologies to improve efficiency and product quality.
+                        Implement advanced recycling technologies to improve
+                        efficiency and product quality.
                       </p>
                     </div>
                   </div>
@@ -728,10 +887,13 @@ export default function Home() {
                       <span className="font-bold">3</span>
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-800 mb-2">Strengthen Market Presence</h4>
+                      <h4 className="font-bold text-gray-800 mb-2">
+                        Strengthen Market Presence
+                      </h4>
                       <p className="text-gray-600">
-                        Develop strategic partnerships and increase presence in online and offline marketplaces to reach
-                        a broader customer base.
+                        Develop strategic partnerships and increase presence in
+                        online and offline marketplaces to reach a broader
+                        customer base.
                       </p>
                     </div>
                   </div>
@@ -741,10 +903,12 @@ export default function Home() {
                       <span className="font-bold">4</span>
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-800 mb-2">Expand Distribution Channels</h4>
+                      <h4 className="font-bold text-gray-800 mb-2">
+                        Expand Distribution Channels
+                      </h4>
                       <p className="text-gray-600">
-                        Build relationships with key distributors and explore new market segments to enhance product
-                        availability.
+                        Build relationships with key distributors and explore
+                        new market segments to enhance product availability.
                       </p>
                     </div>
                   </div>
@@ -753,31 +917,47 @@ export default function Home() {
 
               <div className="md:w-1/2">
                 <div className="bg-white rounded-xl shadow-lg p-8">
-                  <h3 className="text-2xl font-bold mb-6 text-gray-800">Growth Potential</h3>
+                  <h3 className="text-2xl font-bold mb-6 text-gray-800">
+                    Growth Potential
+                  </h3>
                   <p className="text-gray-600 mb-6">
-                    Our strategic expansion plan focuses on sustainable growth through technological advancement, market
-                    expansion, and operational excellence.
+                    Our strategic expansion plan focuses on sustainable growth
+                    through technological advancement, market expansion, and
+                    operational excellence.
                   </p>
                   <div className="space-y-6">
                     <div className="flex items-start">
                       <CheckCircle className="h-6 w-6 text-orange-500 mr-3 flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-semibold text-gray-800">Continuous Innovation</h4>
-                        <p className="text-gray-600">Investing in cutting-edge recycling technologies</p>
+                        <h4 className="font-semibold text-gray-800">
+                          Continuous Innovation
+                        </h4>
+                        <p className="text-gray-600">
+                          Investing in cutting-edge recycling technologies
+                        </p>
                       </div>
                     </div>
                     <div className="flex items-start">
                       <CheckCircle className="h-6 w-6 text-orange-500 mr-3 flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-semibold text-gray-800">Market Expansion</h4>
-                        <p className="text-gray-600">Reaching new industries and geographical regions</p>
+                        <h4 className="font-semibold text-gray-800">
+                          Market Expansion
+                        </h4>
+                        <p className="text-gray-600">
+                          Reaching new industries and geographical regions
+                        </p>
                       </div>
                     </div>
                     <div className="flex items-start">
                       <CheckCircle className="h-6 w-6 text-orange-500 mr-3 flex-shrink-0 mt-1" />
                       <div>
-                        <h4 className="font-semibold text-gray-800">Quality Enhancement</h4>
-                        <p className="text-gray-600">Continuous improvement in product quality and consistency</p>
+                        <h4 className="font-semibold text-gray-800">
+                          Quality Enhancement
+                        </h4>
+                        <p className="text-gray-600">
+                          Continuous improvement in product quality and
+                          consistency
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -794,36 +974,46 @@ export default function Home() {
               <div className="inline-block bg-orange-100 text-orange-500 px-4 py-1 rounded-full text-sm font-medium mb-4">
                 Business Model
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Our Revenue Model</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800">
+                Our Revenue Model
+              </h2>
               <p className="text-gray-600 text-lg">
-                We have established a sustainable business model to ensure long-term growth and profitability.
+                We have established a sustainable business model to ensure
+                long-term growth and profitability.
               </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-orange-500 hover:shadow-xl transition-shadow duration-300">
                 <DollarSign className="h-12 w-12 text-orange-500 mb-4" />
-                <h3 className="text-xl font-bold mb-3 text-gray-800">Direct Sales</h3>
+                <h3 className="text-xl font-bold mb-3 text-gray-800">
+                  Direct Sales
+                </h3>
                 <p className="text-gray-600">
-                  Generate revenue through direct sales of crumb rubber powder and reclaimed rubber to industrial
-                  clients and manufacturers.
+                  Generate revenue through direct sales of crumb rubber powder
+                  and reclaimed rubber to industrial clients and manufacturers.
                 </p>
               </div>
 
               <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-orange-500 hover:shadow-xl transition-shadow duration-300">
                 <Users className="h-12 w-12 text-orange-500 mb-4" />
-                <h3 className="text-xl font-bold mb-3 text-gray-800">Bulk Orders</h3>
+                <h3 className="text-xl font-bold mb-3 text-gray-800">
+                  Bulk Orders
+                </h3>
                 <p className="text-gray-600">
-                  Focus on large-scale orders, catering to high-volume needs in industries like automotive and
-                  construction.
+                  Focus on large-scale orders, catering to high-volume needs in
+                  industries like automotive and construction.
                 </p>
               </div>
 
               <div className="bg-white rounded-xl shadow-lg p-8 border-t-4 border-orange-500 hover:shadow-xl transition-shadow duration-300">
                 <TrendingUp className="h-12 w-12 text-orange-500 mb-4" />
-                <h3 className="text-xl font-bold mb-3 text-gray-800">Long-Term Contracts</h3>
+                <h3 className="text-xl font-bold mb-3 text-gray-800">
+                  Long-Term Contracts
+                </h3>
                 <p className="text-gray-600">
-                  Establish long-term supply agreements with key customers to ensure steady revenue streams.
+                  Establish long-term supply agreements with key customers to
+                  ensure steady revenue streams.
                 </p>
               </div>
             </div>
@@ -838,9 +1028,12 @@ export default function Home() {
                 <div className="inline-block bg-orange-500 text-white px-4 py-1 rounded-full text-sm font-medium mb-4">
                   Get In Touch
                 </div>
-                <h2 className="text-3xl md:text-4xl font-bold mb-6">Contact Us</h2>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                  Contact Us
+                </h2>
                 <p className="text-gray-300 mb-8 text-lg">
-                  Interested in our products or have questions? Reach out to us today.
+                  Interested in our products or have questions? Reach out to us
+                  today.
                 </p>
 
                 <div className="space-y-6">
@@ -856,7 +1049,9 @@ export default function Home() {
                     <Mail className="h-6 w-6 text-orange-500 mr-4 flex-shrink-0" />
                     <div>
                       <h4 className="font-bold mb-1">Email</h4>
-                      <p className="text-gray-300">renovexindustriesllp@gmail.com</p>
+                      <p className="text-gray-300">
+                        renovexindustriesllp@gmail.com
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -874,51 +1069,75 @@ export default function Home() {
 
               <div className="bg-white rounded-xl p-8 text-gray-800">
                 <h3 className="text-2xl font-bold mb-6">Send us a message</h3>
-                <form action="https://formspree.io/f/mgvarezg" method="POST" className="space-y-4">
+                <form
+                  id="contact-form"
+                  action="https://formspree.io/f/mgvarezg"
+                  method="POST"
+                  className="space-y-4"
+                >
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                      <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
+                      <label
+                        htmlFor="name"
+                        className="block text-sm font-medium text-gray-700 mb-1"
+                      >
                         Name
                       </label>
                       <input
                         type="text"
                         id="name"
+                        name="name"
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-orange-500 focus:border-orange-500"
                         placeholder="Your name"
+                        required
                       />
                     </div>
                     <div>
-                      <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                      <label
+                        htmlFor="email"
+                        className="block text-sm font-medium text-gray-700 mb-1"
+                      >
                         Email
                       </label>
                       <input
                         type="email"
                         id="email"
+                        name="email"
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-orange-500 focus:border-orange-500"
                         placeholder="Your email"
+                        required
                       />
                     </div>
                   </div>
                   <div>
-                    <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-1">
+                    <label
+                      htmlFor="company"
+                      className="block text-sm font-medium text-gray-700 mb-1"
+                    >
                       Company
                     </label>
                     <input
                       type="text"
                       id="company"
+                      name="company"
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-orange-500 focus:border-orange-500"
                       placeholder="Your company"
                     />
                   </div>
                   <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+                    <label
+                      htmlFor="message"
+                      className="block text-sm font-medium text-gray-700 mb-1"
+                    >
                       Message
                     </label>
                     <textarea
                       id="message"
+                      name="message"
                       rows={4}
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-orange-500 focus:border-orange-500"
                       placeholder="Your message"
+                      required
                     ></textarea>
                   </div>
                   <button
@@ -946,13 +1165,15 @@ export default function Home() {
                 className="h-12 w-auto mb-4"
               />
               <p className="text-gray-400 max-w-md">
-                RENOVEX INDUSTRIES LLP specializes in recycling waste tires into high-quality crumb rubber powder for
-                various industrial applications.
+                RENOVEX INDUSTRIES LLP specializes in recycling waste tires into
+                high-quality crumb rubber powder for various industrial
+                applications.
               </p>
             </div>
             <div className="text-center md:text-right">
               <p className="text-gray-400">
-                &copy; {new Date().getFullYear()} Renovex Industries LLP. All rights reserved.
+                &copy; {new Date().getFullYear()} Renovex Industries LLP. All
+                rights reserved.
               </p>
               <div className="mt-4">
                 <a
@@ -963,7 +1184,10 @@ export default function Home() {
                 </a>
               </div>
               <div className="mt-2">
-                <a href="tel:+916351037798" className="text-gray-400 hover:text-orange-500 transition-colors">
+                <a
+                  href="tel:+916351037798"
+                  className="text-gray-400 hover:text-orange-500 transition-colors"
+                >
                   +91 6351037798
                 </a>
               </div>
@@ -972,5 +1196,5 @@ export default function Home() {
         </div>
       </footer>
     </div>
-  )
+  );
 }
