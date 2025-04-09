@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 
 export default function Home() {
+  // Update comment
   return (
     <div className="flex flex-col min-h-screen">
       <header className="sticky top-0 z-50 bg-white shadow-md">
